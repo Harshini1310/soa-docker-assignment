@@ -1,0 +1,39 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  background: #f5f8f6;
+  color: #24352d;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.form-control,
+.form-select {
+  min-height: 45px;
+  border-color: #dce5df;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #29946a;
+  box-shadow: 0 0 0 0.2rem #29946a22;
+}
+
+.btn-success {
+  background: #18794e;
+  border-color: #18794e;
+}
+
+.btn-success:hover {
+  background: #12623e;
+  border-color: #12623e;
+}

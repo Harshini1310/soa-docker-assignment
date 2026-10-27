@@ -1,0 +1,186 @@
+
+.app {
+  min-height: 100vh;
+}
+
+.app-navbar {
+  background: #123c35;
+  padding: 16px 0;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+  letter-spacing: -0.5px;
+}
+
+.brand-icon {
+  color: #8be0b0;
+  margin-right: 5px;
+}
+
+.hero {
+  padding: 48px 0;
+  background: linear-gradient(120deg, #174d3e, #247a56);
+  color: white;
+}
+
+.hero-tag {
+  color: #a8e5bf;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.hero h1 {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 750;
+  margin: 10px 0;
+}
+
+.hero p:last-child {
+  color: #e0eee5;
+  margin-bottom: 0;
+}
+
+.stat-card,
+.panel {
+  background: #fff;
+  border: 1px solid #e6ece8;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 4px 16px #153b2710;
+}
+
+.stat-card span {
+  color: #6b7d73;
+  font-size: 0.9rem;
+}
+
+.stat-card h2 {
+  color: #18794e;
+  font-weight: 750;
+  margin: 8px 0 0;
+}
+
+.panel-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.panel-heading h2 {
+  font-size: 1.25rem;
+  font-weight: 750;
+  margin-bottom: 6px;
+}
+
+.panel-heading p {
+  color: #748279;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.heading-icon {
+  color: #18794e;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.form-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar input {
+  flex: 1;
+  min-width: 100px;
+}
+
+.table thead th {
+  background: #f1f6f2;
+  color: #52675a;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  white-space: nowrap;
+  padding: 14px 12px;
+}
+
+.table tbody td {
+  padding: 15px 12px;
+}
+
+.id-badge,
+.service-badge {
+  display: inline-block;
+  border-radius: 6px;
+  padding: 5px 9px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.id-badge {
+  background: #e9f5ed;
+  color: #18794e;
+  font-weight: 700;
+}
+
+.service-badge {
+  background: #f0f3f1;
+  color: #47574d;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px 12px;
+  color: #718076;
+}
+
+.empty-icon {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+.empty-state h3 {
+  color: #33463a;
+  font-size: 1.15rem;
+}
+
+footer {
+  color: #809087;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 576px) {
+  .hero {
+    padding: 35px 0;
+  }
+
+  .panel,
+  .stat-card {
+    padding: 16px;
+  }
+
+  .panel-heading {
+    align-items: flex-start;
+  }
+
+  .search-bar {
+    flex-wrap: wrap;
+  }
+
+  .search-bar input {
+    flex-basis: 100%;
+  }
+
+  .table {
+    font-size: 0.85rem;
+  }
+}
